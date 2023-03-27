@@ -1,0 +1,22 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "clear"
+  },
+  "author": "@andresss",
+  "license": "ISC",
+  "description": "Test",
+  "keywords": [
+    "test",
+    "js"
+  ],
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
